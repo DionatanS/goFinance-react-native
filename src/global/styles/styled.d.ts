@@ -1,4 +1,6 @@
+import { Text } from 'react-native';
 import 'styled-components';
+import styled from 'styled-components/native';
 import theme from './theme';
 
 declare module 'styled-components' {
@@ -6,3 +8,4 @@ declare module 'styled-components' {
 
     export interface DefaultTheme extends ThemeType {}
 }
+
