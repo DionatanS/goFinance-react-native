@@ -15,8 +15,8 @@ import {
 } from "./styles";
 
 interface Category{
-    key: string,
-    name: string
+    key: string;
+    name: string;
 }
 
 export interface Props{
